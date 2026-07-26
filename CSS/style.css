@@ -1,1 +1,517 @@
+/* --- 1. OSNOVNI RESET I KORPORATIVNE VARIJABLE (Iz logotipa) --- */
+:root {
+    --primary-color: #0f172a;   /* Tamna industrijsko plava */
+    --accent-color: #00b4cc;    /* CIJAN-PLAVA BOJA IZ DT MONTAŽA LOGOTIPA */
+    --text-color: #334155;      /* Srednje tamna siva za čitljivost teksta */
+    --light-bg: #f8fafc;        /* Svijetlo siva pozadina */
+    --white: #ffffff;
+    --border-color: #e2e8f0;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    color: var(--text-color);
+    background-color: var(--white);
+    line-height: 1.6;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.text-center {
+    text-align: center;
+}
+
+/* --- 2. ZAGLAVLJE I NAVIGACIJA --- */
+.site-header {
+    background-color: var(--white);
+    border-bottom: 1px solid var(--border-color);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.logo {
+    font-size: 22px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: var(--primary-color);
+}
+
+.logo-accent {
+    color: var(--accent-color);
+}
+
+.main-nav ul {
+    display: flex;
+    list-style: none;
+    gap: 25px;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: var(--text-color);
+    font-weight: 500;
+    font-size: 15px;
+    transition: color 0.2s ease;
+}
+
+.nav-link:hover, .nav-link.active {
+    color: var(--accent-color);
+}
+
+/* --- 3. HERO SEKCIJA (UNIVERZALNA) --- */
+.hero-section {
+    background: linear-gradient(rgba(15, 23, 42, 0.85), rgba(15, 23, 42, 0.95)), 
+                url('https://unsplash.com') no-repeat center center/cover;
+    color: var(--white);
+    padding: 100px 0;
+    text-align: center;
+}
+
+.hero-container {
+    max-width: 800px;
+}
+
+.hero-tagline {
+    color: var(--accent-color);
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 14px;
+    display: inline-block;
+    margin-bottom: 15px;
+}
+
+.hero-section h1 {
+    font-size: 42px;
+    line-height: 1.2;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+.hero-section p {
+    font-size: 18px;
+    color: #94a3b8;
+    margin-bottom: 35px;
+}
+
+.page-hero {
+    padding: 60px 0;
+}
+
+/* --- 4. GUMBI --- */
+.hero-actions {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 12px 28px;
+    font-weight: 600;
+    text-decoration: none;
+    border-radius: 6px;
+    font-size: 15px;
+    transition: all 0.2s ease;
+    cursor: pointer;
+}
+
+.btn-primary {
+    background-color: var(--accent-color);
+    color: var(--primary-color);
+}
+
+.btn-primary:hover {
+    background-color: #009cb3;
+}
+
+.btn-secondary {
+    background-color: transparent;
+    color: var(--white);
+    border: 2px solid #475569;
+}
+
+.btn-secondary:hover {
+    background-color: #475569;
+}
+
+.btn-cta {
+    background-color: var(--primary-color);
+    color: var(--white);
+    font-size: 18px;
+    padding: 14px 35px;
+}
+
+.btn-cta:hover {
+    background-color: #1e293b;
+}
+
+/* --- 5. INDEX STRANICA: PREDNOSTI (FEATURES) --- */
+.features-section {
+    padding: 80px 0;
+    background-color: var(--light-bg);
+}
+
+.section-title {
+    margin-bottom: 50px;
+}
+
+.section-title h2 {
+    font-size: 32px;
+    color: var(--primary-color);
+    margin-bottom: 15px;
+}
+
+.features-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+}
+
+.feature-card {
+    background-color: var(--white);
+    padding: 40px 30px;
+    border-radius: 8px;
+    border: 1px solid var(--border-color);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.feature-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.05);
+}
+
+.feature-icon {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.feature-card h3 {
+    font-size: 20px;
+    color: var(--primary-color);
+    margin-bottom: 12px;
+}
+
+.cta-section {
+    padding: 80px 0;
+    text-align: center;
+    background-color: var(--accent-color);
+    color: var(--primary-color);
+}
+
+.cta-section h2 {
+    font-size: 32px;
+    margin-bottom: 15px;
+}
+
+.cta-section p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+/* --- 6. USLUGE STRANICA: DETALJNE KARTICE --- */
+.services-detail-section, .about-story-section, .contact-section {
+    padding: 80px 0;
+}
+
+.services-grid-detailed {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.service-detail-card {
+    background: var(--white);
+    padding: 40px;
+    border-radius: 8px;
+    border: 1px solid var(--border-color);
+}
+
+.highlight-card {
+    border: 2px solid var(--accent-color);
+    background-color: #f0fdfa;
+}
+
+.card-badge {
+    display: inline-block;
+    background: var(--accent-color);
+    color: var(--primary-color);
+    font-weight: 700;
+    font-size: 12px;
+    padding: 4px 12px;
+    border-radius: 20px;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+.service-detail-card h2 {
+    color: var(--primary-color);
+    margin-bottom: 15px;
+}
+
+.service-detail-card ul {
+    margin-top: 20px;
+    list-style-position: inside;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.express-section {
+    background-color: var(--primary-color);
+    color: var(--white);
+    padding: 60px 0;
+}
+
+.express-container h2 {
+    color: var(--accent-color);
+    margin-bottom: 15px;
+}
+
+.pricing-section {
+    padding: 80px 0;
+    background: var(--light-bg);
+}
+
+.pricing-lead {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.pricing-box {
+    background: var(--white);
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 40px;
+    border-radius: 8px;
+    border: 1px solid var(--border-color);
+}
+
+.pricing-box h3 {
+    margin-bottom: 15px;
+    color: var(--primary-color);
+}
+
+.pricing-box p {
+    margin-bottom: 25px;
+}
+
+/* --- 7. O NAMA STRANICA: PRIČA I RASTUĆA GALERIJA --- */
+.story-container {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 50px;
+    align-items: start;
+}
+
+.story-content h2 {
+    color: var(--primary-color);
+    margin-bottom: 20px;
+    font-size: 28px;
+}
+
+.story-content p {
+    margin-bottom: 20px;
+    font-size: 16px;
+    color: #475569;
+}
+
+.story-values {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.value-mini-card {
+    background: var(--light-bg);
+    padding: 25px;
+    border-radius: 6px;
+    border-left: 4px solid var(--accent-color);
+}
+
+.value-mini-card h4 {
+    color: var(--primary-color);
+    margin-bottom: 8px;
+    font-size: 16px;
+}
+
+/* RASTUĆA BESKONAČNA GALERIJA S HOVER UVEĆANJEM */
+.gallery-section {
+    padding: 80px 0;
+    background: var(--light-bg);
+}
+
+.gallery-grid {
+    display: grid;
+    /* Automatski slaže u redove po 3 slike na kompjuteru, širi se sama kako dodaješ kod */
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    gap: 25px;
+    margin-top: 40px;
+}
+
+.gallery-item {
+    position: relative;
+    border-radius: 8px;
+    overflow: hidden; /* Skriva višak slike pri povećanju */
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+    height: 260px;
+    background-color: var(--white);
+}
+
+.gallery-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Sprečava distorziju slike */
+    /* GLATKI EFEKT PRIJELAZA ZA UVEĆANJE */
+    transition: transform 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94); 
+}
+
+/* EFEKT UVEĆANJA I BLAGE ROTACIJE NA HOVER */
+.gallery-item:hover img {
+    transform: scale(1.1) rotate(1deg); 
+}
+
+.gallery-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(transparent, rgba(15, 23, 42, 0.9));
+    padding: 20px;
+    color: var(--white);
+}
+
+.gallery-overlay span {
+    font-weight: 600;
+    font-size: 16px;
+}
+
+/* --- 8. KONTAKT STRANICA --- */
+.contact-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+}
+
+.contact-info h2 {
+    color: var(--primary-color);
+    margin-bottom: 10px;
+}
+
+.contact-lead {
+    font-size: 18px;
+    margin-bottom: 35px;
+    color: var(--accent-color);
+    font-weight: 500;
+}
+
+.info-block {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 25px;
+    align-items: start;
+}
+
+.info-icon {
+    font-size: 24px;
+    background: var(--light-bg);
+    padding: 10px;
+    border-radius: 50%;
+    line-height: 1;
+}
+
+.info-block h4 {
+    color: var(--primary-color);
+    font-size: 16px;
+    margin-bottom: 4px;
+}
+
+.info-block p a {
+    color: var(--text-color);
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.info-block p a:hover {
+    color: var(--accent-color);
+}
+
+.contact-map h3 {
+    color: var(--primary-color);
+    margin-bottom: 10px;
+}
+
+.contact-map p {
+    margin-bottom: 20px;
+}
+
+.map-wrapper {
+    border-radius: 8px;
+    overflow: hidden;
+    border: 1px solid var(--border-color);
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
+
+/* --- 9. PODNOŽJE (FOOTER) --- */
+.site-footer {
+    background-color: var(--primary-color);
+    color: #94a3b8;
+    padding: 30px 0;
+    font-size: 14px;
+    border-top: 4px solid var(--accent-color);
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+/* --- 10. RESPONSIVE DIZAJN (MOBITELI I TABLETI) --- */
+@media (max-width: 992px) {
+    .story-container, .contact-container {
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }
+}
+
+@media (max-width: 768px) {
+    .header-container {
+        flex-direction: column;
+        gap: 15px;
+    }
+    
+    .hero-section h1 {
+        font-size: 30px;
+    }
+    
+    .hero-actions {
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+    .footer-container {
+        flex-direction: column;
+        text-align: center;
+    }
+}
 
