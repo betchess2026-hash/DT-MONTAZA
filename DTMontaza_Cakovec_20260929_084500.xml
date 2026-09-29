@@ -4,7 +4,7 @@
         <naziv_objekta>DT Montaža, obrt za usluge</naziv_objekta>
         <adresa>Ante Starčevića 65, 40000 Pribislavec</adresa>
         <datum_generiranja>2026-09-29</datum_generiranja>
-        <vrijeme_generiranja>08:45:00</vrijeme_generiranja>
+        <vrijeme_generiranja>09:35:00</vrijeme_generiranja>
     </metapodaci>
     <usluge>
         <usluge_stavka>
@@ -121,10 +121,10 @@
         </usluge_stavka>
         <usluge_stavka>
             <naziv>Minimalna naplata po satu rada (minimalni trošak izlaska na teren za ugradnju)</naziv>
-            <aktualna_cijena>15.00</aktualna_cijena>
+            <aktualna_cijena>25.00</aktualna_cijena>
             <valuta>EUR</valuta>
-            <sidrena_cijena>15.00</sidrena_cijena>
-            <datum_izmjene>2026-09-10</datum_izmjene>
+            <sidrena_cijena>25.00</sidrena_cijena>
+            <datum_izmjene>2026-09-29</datum_izmjene>
         </usluge_stavka>
     </usluge>
 </cjenik>
