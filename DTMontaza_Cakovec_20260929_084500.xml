@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cjenik>
+    <metapodaci>
+        <naziv_objekta>DT Montaža, obrt za usluge</naziv_objekta>
+        <adresa>Ante Starčevića 65, 40000 Pribislavec</adresa>
+        <datum_generiranja>2026-09-29</datum_generiranja>
+        <vrijeme_generiranja>08:45:00</vrijeme_generiranja>
+    </metapodaci>
+    <usluge>
+        <usluge_stavka>
+            <naziv>Montaža ugradbenih ormara s kliznim vratima (širina manje od 2m)</naziv>
+            <aktualna_cijena>60.00</aktualna_cijena>
+            <valuta>EUR</valuta>
+            <sidrena_cijena>60.00</sidrena_cijena>
+            <datum_izmjene>2026-09-10</datum_izmjene>
+        </usluge_stavka>
+        <usluge_stavka>
+            <naziv>Montaža ugradbenih ormara s klasičnim vratima, policama i ladicama (širina manje od 2m)</naziv>
+            <aktualna_cijena>100.00</aktualna_cijena>
+            <valuta>EUR</valuta>
+            <sidrena_cijena>100.00</sidrena_cijena>
+            <datum_izmjene>2026-09-10</datum_izmjene>
+        </usluge_stavka>
+        <usluge_stavka>
+            <naziv>Montaža ugradbenih ormara s kliznim vratima (širina više od 2m)</naziv>
+            <aktualna_cijena>100.00</aktualna_cijena>
+            <valuta>EUR</valuta>
+            <sidrena_cijena>100.00</sidrena_cijena>
+            <datum_izmjene>2026-09-10</datum_izmjene>
+        </usluge_stavka>
+        <usluge_stavka>
+            <naziv>Montaža ugradbenih ormara s klasičnim vratima, policama i ladicama (širina više od 2m)</naziv>
+            <aktualna_cijena>180.00</aktualna_cijena>
+            <valuta>EUR</valuta>
+            <sidrena_cijena>180.00</sidrena_cijena>
+            <datum_izmjene>2026-09-10</datum_izmjene>
+        </usluge_stavka>
+        <usluge_stavka>
+            <naziv>Montaža ugradbenih ormara od zida do zida (širina manje od 3m)</naziv>
+            <aktualna_cijena>180.00</aktualna_cijena>
+            <valuta>EUR</valuta>
+            <sidrena_cijena>180.00</sidrena_cijena>
+            <datum_izmjene>2026-09-10</datum_izmjene>
+        </usluge_stavka>
+        <usluge_stavka>
+            <naziv>Montaža ugradbenih ormara od zida do zida (širina više od 3m, po dužnom metru)</naziv>
+            <aktualna_cijena>80.00</aktualna_cijena>
+            <valuta>EUR</valuta>
+            <sidrena_cijena>80.00</sidrena_cijena>
+            <datum_izmjene>2026-09-10</datum_izmjene>
+        </usluge_stavka>
+        <usluge_stavka>
+            <naziv>Montaža ugradbenih walk-in ormara (po metru)</naziv>
+            <aktualna_cijena>100.00</aktualna_cijena>
+            <valuta>EUR</valuta>
+            <sidrena_cijena>100.00</sidrena_cijena>
+            <datum_izmjene>2026-09-10</datum_izmjene>
+        </usluge_stavka>
+        <usluge_stavka>
+            <naziv>Montaža ugradbenog zida (po dužnom metru)</naziv>
+            <aktualna_cijena>70.00</aktualna_cijena>
+            <valuta>EUR</valuta>
+            <sidrena_cijena>70.00</sidrena_cijena>
+            <datum_izmjene>2026-09-10</datum_izmjene>
+        </usluge_stavka>
+        <usluge_stavka>
+            <naziv>Montaža ugradbene kuhinje (po dužnom metru)</naziv>
+            <aktualna_cijena>80.00</aktualna_cijena>
+            <valuta>EUR</valuta>
+            <sidrena_cijena>80.00</sidrena_cijena>
+            <datum_izmjene>2026-09-10</datum_izmjene>
+        </usluge_stavka>
+        <usluge_stavka>
+            <naziv>Rezanje otvora za sudoper ili ploču (drvena radna ploča)</naziv>
+            <aktualna_cijena>25.00</aktualna_cijena>
+            <valuta>EUR</valuta>
+            <sidrena_cijena>25.00</sidrena_cijena>
+            <datum_izmjene>2026-09-10</datum_izmjene>
+        </usluge_stavka>
+        <usluge_stavka>
+            <naziv>Rezanje otvora za sudoper ili ploču (mramorna/kvarc radna ploča)</naziv>
+            <aktualna_cijena>75.00</aktualna_cijena>
+            <valuta>EUR</valuta>
+            <sidrena_cijena>75.00</sidrena_cijena>
+            <datum_izmjene>2026-09-10</datum_izmjene>
+        </usluge_stavka>
+        <usluge_stavka>
+            <naziv>Ugradnja ploče za kuhanje</naziv>
+            <aktualna_cijena>25.00</aktualna_cijena>
+            <valuta>EUR</valuta>
+            <sidrena_cijena>25.00</sidrena_cijena>
+            <datum_izmjene>2026-09-10</datum_izmjene>
+        </usluge_stavka>
+        <usluge_stavka>
+            <naziv>Brtvljenje i silikoniziranje spojeva elemenata (po dužnom metru)</naziv>
+            <aktualna_cijena>7.00</aktualna_cijena>
+            <valuta>EUR</valuta>
+            <sidrena_cijena>7.00</sidrena_cijena>
+            <datum_izmjene>2026-09-10</datum_izmjene>
+        </usluge_stavka>
+        <usluge_stavka>
+            <naziv>Ugradnja i spajanje ugradbenih kućanskih aparata (frižider, pećnica, suđerica, po komadu)</naziv>
+            <aktualna_cijena>35.00</aktualna_cijena>
+            <valuta>EUR</valuta>
+            <sidrena_cijena>35.00</sidrena_cijena>
+            <datum_izmjene>2026-09-10</datum_izmjene>
+        </usluge_stavka>
+        <usluge_stavka>
+            <naziv>Ugradnja kupaonskih elemenata (postolje za umivaonik, ugradbeni regali)</naziv>
+            <aktualna_cijena>40.00</aktualna_cijena>
+            <valuta>EUR</valuta>
+            <sidrena_cijena>40.00</sidrena_cijena>
+            <datum_izmjene>2026-09-10</datum_izmjene>
+        </usluge_stavka>
+        <usluge_stavka>
+            <naziv>Ugradnja kupaonskih ugradbenih ormara</naziv>
+            <aktualna_cijena>75.00</aktualna_cijena>
+            <valuta>EUR</valuta>
+            <sidrena_cijena>75.00</sidrena_cijena>
+            <datum_izmjene>2026-09-10</datum_izmjene>
+        </usluge_stavka>
+        <usluge_stavka>
+            <naziv>Minimalna naplata po satu rada (minimalni trošak izlaska na teren za ugradnju)</naziv>
+            <aktualna_cijena>15.00</aktualna_cijena>
+            <valuta>EUR</valuta>
+            <sidrena_cijena>15.00</sidrena_cijena>
+            <datum_izmjene>2026-09-10</datum_izmjene>
+        </usluge_stavka>
+    </usluge>
+</cjenik>
